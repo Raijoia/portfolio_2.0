@@ -1,25 +1,22 @@
-import NavBar from "./components/NavBar"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import Inicio from "./pages/Inicio"
-import Rodape from "./components/Rodape"
 import SobreMim from "./pages/SobreMim"
 import Formacao from "./pages/Formacao"
 import Projetos from "./pages/Projetos"
+import PaginaPadrao from "./components/PaginaPadrap"
 
 function AppRouter() {
   return (
-    <div className="w-screen h-screen">
-      <Router>
-        <NavBar />
-        <Routes>
-          <Route path="/" element={<Inicio />} />
+    <Router>
+      <Routes>
+        <Route path="/" element={<PaginaPadrao />}>
+          <Route index element={<Inicio />} />
           <Route path="/sobremim" element={<SobreMim />} />
           <Route path="/formacao" element={<Formacao />} />
           <Route path="/projetos" element={<Projetos />} />
-        </Routes>
-        <Rodape />
-      </Router>
-    </div>
+        </Route>
+      </Routes>
+    </Router>
   )
 }
 

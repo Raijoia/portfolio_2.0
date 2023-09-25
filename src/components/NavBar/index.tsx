@@ -5,8 +5,8 @@ import { Link } from "react-router-dom"
 
 const NavBar = () => {
   return (
-    <header className="flex justify-around alignItens-center items-center pt-5">
-      <h1>Raí Joia</h1>
+    <header className="flex justify-around alignItens-center items-center pt-5 ">
+      <h1 className="hidden sm:block font-mono">Olá, eu sou o Raí Joia</h1>
       <BottomNavigation showLabels>
         <Link to='/' >
           <BottomNavigationAction label="Home" icon={<HomeOutlined />} /> 
