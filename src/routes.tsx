@@ -11,9 +11,9 @@ function AppRouter() {
       <Routes>
         <Route path="/" element={<PaginaPadrao />}>
           <Route index element={<Inicio />} />
-          <Route path="/sobremim" element={<SobreMim />} />
-          <Route path="/formacao" element={<Formacao />} />
-          <Route path="/projetos" element={<Projetos />} />
+          <Route path="sobremim" element={<SobreMim />} />
+          <Route path="formacao" element={<Formacao />} />
+          <Route path="projetos" element={<Projetos />} />
         </Route>
       </Routes>
     </Router>
