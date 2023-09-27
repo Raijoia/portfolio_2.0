@@ -3,7 +3,7 @@ import Inicio from "./pages/Inicio"
 import SobreMim from "./pages/SobreMim"
 import Formacao from "./pages/Formacao"
 import Projetos from "./pages/Projetos"
-import PaginaPadrao from "./components/PaginaPadrap"
+import PaginaPadrao from "./components/PaginaPadrao"
 
 function AppRouter() {
   return (
