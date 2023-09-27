@@ -1,6 +1,8 @@
+import AboutMe from "../../components/AboutMe"
+
 const SobreMim = () => {
   return (
-    <h5>Página em andamento</h5>
+    <AboutMe />
   )    
 }
 
