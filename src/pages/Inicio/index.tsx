@@ -1,5 +1,5 @@
 import InicioLeft from "../../components/InicioLeft"
-import InicioRight from "../../components/InicioRight"
+import InicioRight from "../../components/Image"
 
 const Inicio = () => {
   return (
