@@ -12,6 +12,11 @@ const InicioLeft = () => {
       name: "Linkedin",
       id: 2,
     },
+    {
+      link: "https://api.whatsapp.com/send?phone=5511977733585",
+      name: "WhatsApp",
+      id: 3
+    }
   ]
 
   return (
@@ -28,7 +33,9 @@ const InicioLeft = () => {
       <div className="flex gap-5 lg:gap-10 mt-5">
         {sociais.map((social, index) => (
           <Button variant="contained" key={index}>
-            <a href={social.link} target="_blank" >{social.name}</a>
+            <a href={social.link} target="_blank">
+              {social.name}
+            </a>
           </Button>
         ))}
       </div>
