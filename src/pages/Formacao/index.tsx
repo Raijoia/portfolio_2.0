@@ -1,6 +1,8 @@
+import Title from "../../components/Title"
+
 const Formacao = () => {
   return (
-    <h5>Página em andamento</h5>
+    <Title>Formação</Title>
   )
 }
 
