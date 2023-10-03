@@ -1,4 +1,4 @@
-import InicioLeft from "../../components/InicioLeft"
+import InicioLeft from "./InicioLeft"
 import InicioRight from "../../components/Image"
 
 const Inicio = () => {
