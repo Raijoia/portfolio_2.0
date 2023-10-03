@@ -1,11 +1,6 @@
-interface CardProps {
-    id: number,
-    curso: string,
-    instituicao: string,
-    periodo: string,
-}
+import ICard from "../../../interfaces/ICard"
 
-const Card = ( { id, curso, instituicao, periodo } :CardProps) => {
+const Card = ( { id, curso, instituicao, periodo } :ICard) => {
   return (
     <li
       key={id}
