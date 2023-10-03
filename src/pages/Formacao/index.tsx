@@ -1,4 +1,5 @@
 import Title from "../../components/Title"
+import Card from "./Card"
 
 const Formacao = () => {
   const formacao = [
@@ -46,28 +47,16 @@ const Formacao = () => {
       periodo: "2023 - 2023",
     },
   ]
-  
 
   return (
     <>
       <Title>Formação</Title>
-      <div className="">
-          <ul className="flex gap-10 mt-20 mb-72 ml-9 mr-9 flex-wrap">
-            {formacao.map((item) => (
-              <li
-                key={item.id}
-                className="p-5 bg-gray-200 dark:bg-dark-200 sm:rounded-xl sm:shadow-lg flex gap-2 flex-col items-center sm:hover:shadow-gray-500 sm:hover:shadow-lg font-sans" 
-              >
-                <h4 className="font-bold">{item.curso}</h4>
-                <p className="text-center">
-                  Instituição: {item.instituicao} <br />{" "}
-                  <b>Periodo: {item.periodo}</b>
-                </p>{" "}
-                <br />
-              </li>
-            ))}
-          </ul>
-      </div>
+
+      <ul className="flex gap-10 mt-20 mb-72 ml-9 mr-9 flex-wrap">
+        {formacao.map((item) => (
+          <Card {...item} />
+        ))}
+      </ul>
     </>
   )
 }
