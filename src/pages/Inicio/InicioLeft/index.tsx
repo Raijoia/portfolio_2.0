@@ -20,7 +20,7 @@ const InicioLeft = () => {
   ]
 
   return (
-    <main className="flex flex-col items-center justify-center">
+    <div className="flex flex-col items-center justify-center">
       <h2 className="text-4xl text-center">
         Raí Joia <br /> Desenvolvedor Front-end
       </h2>
@@ -39,7 +39,7 @@ const InicioLeft = () => {
           </Button>
         ))}
       </div>
-    </main>
+    </div>
   )
 }
 
