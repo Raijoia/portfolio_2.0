@@ -52,7 +52,7 @@ const Formacao = () => {
     <>
       <Title>Formação</Title>
 
-      <ul className="flex gap-10 mt-20 mb-72 ml-9 mr-9 flex-wrap justify-center">
+      <ul className="flex gap-10 mt-20 mb-56 ml-9 mr-9 flex-wrap justify-center">
         {formacao.map((item) => (
           <Card {...item} />
         ))}
