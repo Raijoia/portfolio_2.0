@@ -23,7 +23,7 @@ const Projetos = () => {
     },
     {
       id: uuidv4(),
-      nome: "Timer pra estudo",
+      nome: "Timer",
       vercel: "https://time-for-tasks.vercel.app/",
       github: "https://github.com/Raijoia/time_for_tasks",
     },
