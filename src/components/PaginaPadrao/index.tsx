@@ -4,7 +4,7 @@ import Rodape from "../Rodape"
 
 const PaginaPadrao = () => {
   return (
-    <div className="">
+    <div className="scroll-smooth">
       <NavBar />
       <Outlet />
       <Rodape />

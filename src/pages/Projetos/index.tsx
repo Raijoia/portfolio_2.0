@@ -47,11 +47,11 @@ const Projetos = () => {
   return (
     <>
       <Title>Projetos</Title>
-      <ul className="flex flex-wrap gap-10 p-14">
+      <ul className="flex flex-wrap gap-14 p-14">
         {projetos.map((projeto) => (
           <li
             key={projeto.id}
-            className="grid grid-cols-2 items-center bg-gray-200 sm:rounded-xl sm:shadow-lg sm:hover:shadow-gray-500 sm:hover:shadow-lg"
+            className="flex flex-col sm:grid sm:grid-cols-2 items-center bg-gray-200 sm:rounded-xl sm:shadow-lg sm:hover:shadow-gray-500 sm:hover:shadow-lg h-60"
           >
             <a
               href={projeto.vercel}
