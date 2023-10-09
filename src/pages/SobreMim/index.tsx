@@ -6,7 +6,7 @@ const SobreMim = () => {
   return (
     <>
       <Title>Sobre Mim</Title>
-      <main className="md:grid md:grid-cols-2 justify-center items-center gap-40  pt-44 pb-60 ml-28 mr-28">
+      <main className="md:grid md:grid-cols-2 justify-center items-center gap-40 pt-28 pb-24 ml-28 mr-28">
         <div className="ml-10">
           <Image />
         </div>
