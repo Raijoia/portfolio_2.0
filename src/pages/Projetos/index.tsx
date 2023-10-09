@@ -59,7 +59,7 @@ const Projetos = () => {
               className="flex justify-center"
             >
               <img
-                src={`/public/images/${projeto.nome}.png`}
+                src={`./images/${projeto.nome}.png`}
                 alt={`Imagem do projeto ${projeto.nome}`}
                 className="w-6/12 "
               />
