@@ -12,6 +12,7 @@ const Projetos = () => {
       descricao:
         "Projeto desenvolvido para a organização de times de desenvolvimento para empresas",
       tecnologias: "TypeScript, React.js, CSS e Git",
+      image: "/src/pages/Projetos/images/Organo.png",
     },
     {
       id: uuidv4(),
@@ -21,6 +22,7 @@ const Projetos = () => {
       descricao:
         "Projeto desenvolvido como um site para cardápio de restaurante usando API para atualização e adicionamento de novos pratos",
       tecnologias: "TypeScript, React.js, SCSS e Git",
+      image: "/src/pages/Projetos/images/Aluroni.png",
     },
     {
       id: uuidv4(),
@@ -30,6 +32,7 @@ const Projetos = () => {
       descricao:
         "Projeto desenvolvido para a busca de pratos diferentes para o dia a dia, com diversos restaurantes e pratos, podendo ser adicionador pela API-REST",
       tecnologias: "TypeScript, React.js, SCSS, Axios e Git",
+      image: "/src/pages/Projetos/images/AlFood.png",
     },
     {
       id: uuidv4(),
@@ -39,6 +42,7 @@ const Projetos = () => {
       descricao:
         "Projeto desenvolvido para organizar o tempo de estudos, podendo ser usado como pomodoro ou como timer normal",
       tecnologias: "TypeScript, React.js, SCSS e Git",
+      image: "/src/pages/Projetos/images/Timer.png",
     },
   ]
 
@@ -59,7 +63,7 @@ const Projetos = () => {
               className="flex justify-center"
             >
               <img
-                src={`/src/pages/Projetos/images/${projeto.nome}.png`}
+                src={projeto.image}
                 alt={`Imagem do projeto ${projeto.nome}`}
                 className="w-6/12 "
               />
