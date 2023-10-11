@@ -1,47 +1,48 @@
 import Title from "../../components/Title"
 import Card from "./Card"
+import { v4 as uuidv4 } from "uuid"
 
 const Formacao = () => {
   const formacao = [
     {
-      id: 1,
+      id: uuidv4(),
       curso: "Ciência Da Computação",
       instituicao: "Universidade São Judas Tadeu",
       periodo: "2023 - 2026",
     },
     {
-      id: 2,
+      id: uuidv4(),
       curso: "Formação a partir do zero: iniciante na programação",
       instituicao: "Alura",
       periodo: "2023 - 2023",
     },
     {
-      id: 3,
+      id: uuidv4(),
       curso: "Formação a partir do zero: HTML e CSS para projetos web",
       instituicao: "Alura",
       periodo: "2023 - 2023",
     },
     {
-      id: 4,
+      id: uuidv4(),
       curso: "Formação: Explore React com JavaScript",
       instituicao: "Alura",
       periodo: "2023 - 2023",
     },
     {
-      id: 5,
+      id: uuidv4(),
       curso:
         "Formação: Desenvolva aplicações Web em JavaScipt com tarefas concorrentes e orientadas a objetos",
       instituicao: "Alura",
       periodo: "2023 - 2023",
     },
     {
-      id: 6,
+      id: uuidv4(),
       curso: "Formação: Desenvolva aplicações Web em JavaScipt",
       instituicao: "Alura",
       periodo: "2023 - 2023",
     },
     {
-      id: 7,
+      id: uuidv4(),
       curso: "Formação: Gerencie aplicações React com TypeScript",
       instituicao: "Alura",
       periodo: "2023 - 2023",

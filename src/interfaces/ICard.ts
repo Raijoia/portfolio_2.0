@@ -1,5 +1,5 @@
 interface ICard {
-  id: number
+  id: string
   curso: string
   instituicao: string
   periodo: string
