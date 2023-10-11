@@ -1,8 +1,18 @@
+import { Button } from "@mui/material"
+import { useNavigate } from "react-router-dom"
+
 const Page404 = () => {
+  const navigate = useNavigate()
+
   return (
-    <main className="text-center">
-      <h1>Erro 404</h1>
-      <p>Página não encontrada</p>
+    <main className="flex flex-col text-center justify-center h-screen w-">
+      <div>
+        <h1>Erro 404</h1>
+        <p className="pt-3 pb-3">Página não encontrada</p>
+        <Button variant="contained" onClick={() => navigate(-1)}>
+            Voltar para a página inicial
+        </Button>
+      </div>
     </main>
   )
 }
