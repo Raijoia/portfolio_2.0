@@ -1,11 +1,11 @@
 import InicioLeft from "./InicioLeft"
-import InicioRight from "../../components/Image"
+import Image from "../../components/Image"
 
 const Inicio = () => {
   return (
     <main className="md:grid md:grid-cols-2 justify-center gap-40  pt-44 pb-24 ml-28 mr-28">
       <InicioLeft />
-      <InicioRight />
+      <Image />
     </main>
   )
 }
