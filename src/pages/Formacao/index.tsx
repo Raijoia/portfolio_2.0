@@ -47,6 +47,30 @@ const Formacao = () => {
       instituicao: "Alura",
       periodo: "2023 - 2023",
     },
+    {
+      id: uuidv4(),
+      curso: "Formação: Formação Java e Spring Boot",
+      instituicao: "Alura",
+      periodo: "2023 - 2023",
+    },
+    {
+      id: uuidv4(),
+      curso: "Formação: Melhore sua aplicação React com o Next.js",
+      instituicao: "Alura",
+      periodo: "2023 - 2023",
+    },
+    {
+      id: uuidv4(),
+      curso: "Formação: Melhore sua experiência de desenvolvimento com TypeScript",
+      instituicao: "Alura",
+      periodo: "2023 - 2023",
+    },
+    {
+      id: uuidv4(),
+      curso: "Formação: Performe sua aplicação React com Next.js Full stack",
+      instituicao: "Alura",
+      periodo: "2023 - 2023",
+    },
   ]
 
   return (
