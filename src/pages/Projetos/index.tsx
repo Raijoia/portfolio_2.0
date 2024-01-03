@@ -40,9 +40,23 @@ const Projetos = () => {
         "Projeto desenvolvido para organizar o tempo de estudos, podendo ser usado como pomodoro ou como timer normal",
       tecnologias: "TypeScript, React.js, SCSS e Git",
     },
+    {
+      id: uuidv4(),
+      nome: "BookWiz",
+      github: "https://github.com/Raijoia/BookWiz",
+      descricao:
+        "Projeto desenvolvido para a unidade curricular Programação de soluções computacionais e Modelagem de Software da universidade São Judas Tadeu no curso de Ciência da Computação",
+      tecnologias: "Java, MySQL, Maven, Decorators, Aiven e StarUML",
+    },
+    {
+      id: uuidv4(),
+      nome: "MedVoll",
+      github: "https://github.com/Raijoia/springBoot-APIRest",
+      descricao:
+        "Api desenvolvida com CRUD para a agenda de uma clínica com agedamento de consultas e cancelamento de consultas",
+      tecnologias: "Java, SpringBoot e MySQL",
+    },
   ]
-
-  console.log(projetos)
 
   return (
     <>
@@ -59,7 +73,7 @@ const Projetos = () => {
               className="flex justify-center"
             >
               <img
-                src={`./images/${projeto.nome}.png`}
+              src={`./images/${projeto.nome}.png`}
                 alt={`Imagem do projeto ${projeto.nome}`}
                 className="w-6/12 "
               />
