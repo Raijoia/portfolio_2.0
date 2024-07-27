@@ -14,7 +14,7 @@ const InicioLeft = () => {
       id: uuidv4(),
     },
     {
-      link: "https://api.whatsapp.com/send?phone=5511977733585",
+      link: "https://api.whatsapp.com/send?phone=5511944270875",
       name: "WhatsApp",
       id: uuidv4()
     }
